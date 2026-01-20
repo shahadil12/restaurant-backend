@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strict": true,                        // Enables all strict type-checking options
+    "strictNullChecks": true,              // Enforces strict null checks
+    "noImplicitAny": true,                 // Disallows the use of `any` type unless explicitly stated
+    "strictBindCallApply": true,           // Ensures correct `this` behavior in functions
+    "forceConsistentCasingInFileNames": true, // Enforces consistent file casing
+    "noFallthroughCasesInSwitch": true,    // Prevents fallthrough cases in switch statements
+    "esModuleInterop": true,               // Enables interop between CommonJS and ES modules
+    "resolveJsonModule": true,             // Allows importing JSON files
+    "noImplicitReturns": true,             // Ensures functions return the correct values
+    "noUnusedLocals": false,               // Disable warning for unused local variables
+    "noUnusedParameters": false,           // Disable warning for unused parameters
+    "strictPropertyInitialization": false
+  },
+  "exclude": ["node_modules", "dist"],     // Excludes node_modules and build output from compilation
+  "include": ["src/**/*"]                  // Includes all source files in the src directory
+}
+
